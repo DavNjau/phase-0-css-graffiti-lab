@@ -5,8 +5,8 @@
 #tag-5,
 #tag-6,
 #tag-7 {
-    display: none;
-    background: none;
+    display: none !important;
+    background: none !important;
 }
 
 .tag-1,
@@ -16,11 +16,11 @@
 #tag-5,
 #tag-6,
 #tag-7 {
-    z-index: auto;
+    z-index: auto !important;
 }
 
 .parent {
-    background: none;
-    box-shadow: none;
-    border: none;
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
 }
